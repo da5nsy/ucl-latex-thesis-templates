@@ -1,3 +1,6 @@
+*Fork created to explore removal of bibentry, which seems to cause a lot of problems: https://github.com/UCL/ucl-latex-thesis-templates/issues/2#issuecomment-514601678*
+
+
 # UCL LaTeX Thesis Templates
 
 [![Build Status](https://travis-ci.org/UCL/ucl-latex-thesis-templates.svg?branch=master)](https://travis-ci.org/UCL/ucl-latex-thesis-templates)
