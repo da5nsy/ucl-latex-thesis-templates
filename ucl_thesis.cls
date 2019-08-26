@@ -417,6 +417,9 @@
 %  \begin{macro}{\@maketitle}
 %  Create a separate title page with the usual material on it.
 %    \begin{macrocode}
+
+\def\ORCID#1{\gdef\@ORCID{#1}} %creates ORCID variable
+
 \newcommand \@maketitle{%
     \newpage%
     \null%
@@ -430,7 +433,8 @@
 %%%
     \begin{center}%
         {\huge \bfseries \@title}\\[5em]%
-        {\Large \itshape \@author}\\%
+        {\Large \itshape \@author}\\%        
+        {\small ORCID: \href{https://orcid.org/\@ORCID}{\@ORCID}}\\%
     \end{center}%
     \vfill%
     \begin{center}%
